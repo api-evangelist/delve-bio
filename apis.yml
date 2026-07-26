@@ -1,8 +1,16 @@
 aid: delve-bio
 name: Delve Bio
-description: 'Delve Bio is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Delve Bio is a genomic diagnostics company commercializing clinical metagenomic
+  next-generation sequencing (mNGS) for infectious disease diagnosis. Its flagship test, Delve
+  Detect, analyzes all nucleic acids in a single cerebrospinal fluid sample to simultaneously
+  detect bacteria, viruses, fungi, and parasites, screening against a curated database of more
+  than 68,000 pathogen species to diagnose meningitis and encephalitis with results in roughly
+  48 hours. The company is the exclusive licensee of the University of California San Francisco
+  (UCSF) mNGS technology developed at the Center for Next-Gen Precision Diagnostics, founded by
+  Charles Chiu, Joe DeRisi, Michael Wilson, Pardis Sabeti, and Matthew Meyerson, and backed by
+  investors including GV. Delve Bio operates as a CAP/CLIA-certified clinical laboratory serving
+  labs and clinicians; it exposes no public developer API surface. Added to the API Evangelist
+  network as a gv portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/delve-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,31 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.delve.bio/wp-content/uploads/2025/05/Delve.webp
 tags:
 - Company
 - Life Sciences
+- Diagnostics
+- Metagenomics
+- Infectious Disease
+- Genomics
+- Next-Generation Sequencing
+- Precision Medicine
+- Clinical Laboratory
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.delve.bio
+- type: GettingStarted
+  url: https://www.delve.bio/start/
+- type: Support
+  url: https://www.delve.bio/company/contact/
+- type: Blog
+  url: https://www.delve.bio/news/
+- type: GitHubOrganization
+  url: https://github.com/delvebio
+- type: PrivacyPolicy
+  url: https://www.delve.bio/privacy/
+- type: TermsOfService
+  url: https://www.delve.bio/terms/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
